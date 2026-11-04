@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "qoral-plugin-marketplace",
+  "owner": {
+    "name": "Qoral"
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Claude Code plugins from Qoral."
+  },
+  "plugins": [
+    {
+      "name": "bwat",
+      "description": "bwat in your agent sessions: your hand-off inbox, meetings and transcripts from your company's bwat, over a local MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "qoralai/bwat-plugin",
+        "ref": "v0.8.0",
+        "sha": "93fe046f3320e86aca7a1b6034bfa8b68afc574d"
+      },
+      "homepage": "https://github.com/qoralai/bwat-plugin",
+      "keywords": ["bwat", "meetings", "hand-off", "inbox", "transcripts", "mcp"]
+    }
+  ]
+}
