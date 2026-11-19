@@ -5,7 +5,7 @@
     "name": "Qoral"
   },
   "metadata": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "Claude Code plugins from Qoral."
   },
   "plugins": [
@@ -16,8 +16,8 @@
       "source": {
         "source": "github",
         "repo": "qoralai/bwat-plugin",
-        "ref": "v0.8.1",
-        "sha": "28062260607bbaa487bad310ddf369d1d965ef0a"
+        "ref": "v0.10.0",
+        "sha": "7367318de68cf368642ca971d68d5a9c29166f51"
       },
       "homepage": "https://github.com/qoralai/bwat-plugin",
       "keywords": ["bwat", "meetings", "hand-off", "inbox", "transcripts", "mcp"]

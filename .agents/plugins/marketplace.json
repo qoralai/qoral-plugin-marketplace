@@ -1,0 +1,22 @@
+{
+  "name": "qoral-plugin-marketplace",
+  "interface": {
+    "displayName": "Qoral"
+  },
+  "plugins": [
+    {
+      "name": "bwat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/qoralai/bwat-plugin.git",
+        "ref": "v0.10.0",
+        "sha": "7367318de68cf368642ca971d68d5a9c29166f51"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
